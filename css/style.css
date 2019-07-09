@@ -70,7 +70,7 @@
 }
 /*--Services--*/
 #services{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/services.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("/img/services.jpg");
     background-size: cover;
     background-position: center;
     color: #efefef !important;
@@ -182,4 +182,16 @@ h1::after{
 }
 .img-box ul, .img-box ul li{
     transition: 0.5s;
+}
+/*--promo--*/
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/img/promo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
 }
